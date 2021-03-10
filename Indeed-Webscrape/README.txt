@@ -2,9 +2,9 @@ This code works, but needs some cleaning up/additional functionality. I plan to 
 
 TODO: 
 
-- have one window for console outputs (e.g. progress, 3/15 scraped), one for summary output, one for job words
+- Have one window for console outputs (e.g. progress, 3/15 scraped), one for summary output, one for job words
 
-- have inputs for user, way to quit/stop running (on exit?)
+- Have inputs for user, way to quit/stop running (on exit?)
 
 - Find a way to verify results? print page text to different document, compare the two? 
 
@@ -17,3 +17,5 @@ TODO:
 - Try using an API (RESTful? ODBC?) to connect Python and HTML/SQL
 
 - Calculate upload date & time from the age!
+
+- Non-enterprise: subscribe to a virtual instance, install MySql on it, just update it a few times a day (need to optimize for best update times: (early) morning? afternoon/evening?
