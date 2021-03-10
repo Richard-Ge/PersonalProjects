@@ -1,0 +1,1 @@
+This code works, but needs some cleaning up/additional functionality. I plan to connect it to a MySQL server with pyodbc, but I haven't found an inexpensive, non-enterprise hosting service yet. Also could use some NLP for the keyword search function.
