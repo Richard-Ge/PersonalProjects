@@ -197,7 +197,7 @@ for query in queries:
 		jobHeaderSel = pageSoup.select(".jobsearch-JobInfoHeader-subtitle")
 		if str(jobHeaderSel) == "[]":
 			print("Special case: webpage is different")
-			with open("IndeedMLs.tsv", "a") as file:
+			with open("IndeedAnalysts.tsv", "a") as file:
 				file.write(IDstr+"\t\t\t"+time.asctime(time.gmtime())+"\t"+query+"\t\n")
 			count += 1
 			continue
